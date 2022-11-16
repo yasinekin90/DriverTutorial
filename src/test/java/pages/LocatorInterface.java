@@ -8,4 +8,8 @@ public interface LocatorInterface {
     By passwordInputLogin = By.cssSelector("input[name='password']");
     By buttonSubmitLogin = By.xpath("//button[text()='LOG IN']");
     By buttonLogout = By.cssSelector("a[href='#/logout']");
+
+
+    By textOverLays=By.tagName("h1");
+    By close=By.cssSelector("div.aui-modal-dialog__close");
 }
