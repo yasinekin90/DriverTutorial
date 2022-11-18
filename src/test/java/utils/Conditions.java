@@ -1,2 +1,8 @@
-package utils;public class Conditions {
+package utils;
+
+public enum Conditions {
+    exists,
+    visible,
+    clickable
+    ;
 }
