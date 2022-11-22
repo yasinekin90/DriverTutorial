@@ -6,3 +6,5 @@ Feature: Feature1
     |username|demo|
     |password|demo|
     Then login should be successfull
+
+

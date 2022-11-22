@@ -55,6 +55,15 @@ public class BaseTest {
     }
 
     public void scrollIntoView(WebElement element){
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(false);", element);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
+
+    public void scrollBy(int val){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0," + val +")");
+    }
+
+    public By getXpathOfLastNameWithId(int id){
+        return By.xpath("(//tr[.//*[text()='"+id+"']]//td)[3]");
     }
 }
