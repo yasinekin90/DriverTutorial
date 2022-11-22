@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="1" skipped="0" total="1">
+    <suite duration-ms="2739" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="2739" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Feature2">
+                <test-method duration-ms="2083" finished-at="2022-11-22T11:14:03.497466400Z" name="Check whether user exist" started-at="2022-11-22T11:14:01.403582200Z" status="PASS"/>
+            </class>
+        </test>
+    </suite>
+</testng-results>
