@@ -16,7 +16,9 @@ import utils.Driver;
         features = {"src/test/java/features/actors.feature"},
         glue = {"stepdefinitions"},
         tags = "@Tag2",
-        plugin = { "pretty", "html:test-output/cucumber-reports/Cucumber.html"}
+        plugin = { "pretty", "json:test-output/cucumber-reports/Cucumber.json",
+                "testng:test-output/cucumber-reports/Cucumber.xml",
+                "html:test-output/cucumber-reports/Cucumber.html"}
 )
 public class Runner2 extends AbstractTestNGCucumberTests {
     @BeforeTest
